@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" >
+ <!--Language is specified --> 
+
+  <head>
+    <title>Priscilla Resume</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="UTF-8">
+  </head>
+  <!--Title for the page is given and CSS is linked with relative filepath  -->
+
+  <body>
+  <!--NavigationOption Begins --> 
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="skills.html">Skills</a>
+    </div>
+    <!--NavigationOption ends --> 
+    <!--H1,H2 heading for the page, css reffered from stylesheet.css, cancels 2 of 7 User Agent Stylesheet --> 
+    <h1>PRISCILLA MARIYA PHILIP</h1>
+    <h2>OBJECTIVE </h2>
+    <!--using class "intro" styles defined in stylesheet and using block elements p and div  --> 
+    <div class="intro">
+      <p>An enthusiastic student looking for oppurtunities to work in GIS.</p>
+      <p> Eager to contribute and work with a team through hardwork, attention to detail and organisational skills and to improve software skills.</p>
+      <p> Motivated to grow and excel in the industry.</p>
+      <p>Currently studying in Fleming College.</p>
+    </div>
+    <!--using class "welcome" styles defined in stylesheet and using block elements p and div  -->
+    <h2>PRESENTLY</h2>
+    <div id="welcome">
+      <p>Currently pursuing studies in GIS APPLICATION SPECIALIST</p>
+      <p>worked with various software experiences. </p> 
+      <p>worked for various projects.</p> 
+    </div>
+
+    <h2> ACADEMIC QUALIFICATIONS </h2>
+    <!--tableOption Begins -->
+    <!--using class "table" styles defined in stylesheet and using block elements, tr is the table row,th is table head, td id table data -->
+
+    <table id="table">
+      <tr>
+        <th>Course</th>
+        <th>Name of Instituion</th>
+        <th>Year</th>
+        <th>Passsing Percentage</th>
+      </tr>
+      <tr>
+        <td>High School</td>
+        <td>Kendriya Vidyalaya</td>
+        <td>2016</td>
+        <td>75%</td>
+      </tr>
+      <tr>
+        <td>BSc. In Geography</td>
+        <td>Madras Christian College</td>
+        <td>2019</td>
+        <td>75%</td>
+      </tr>
+      <tr>
+        <td>Masters in Geography</td>
+        <td>Madras University</td>
+        <td>2021</td>
+        <td>75%</td>
+      </tr>
+      <tr>
+        <td>GIS Application Specialist</td>
+        <td>Fleming College</td>
+        <td>2023</td>
+        <td>Currently enrolled</td>
+      </tr>
+    </table>
+     <!--tableOption Ends -->
+    <h2>EXPERIENCES</h2>
+    <!--Description list (dl),description terms(dt) and description(dd) begins -->
+    <div class="exp">
+      <dl>
+        <dt class="listproj">NOXSTROCK (2023)</dt>
+          <dd class="projlist"> Woked as a research asisstant to analayse the land use land cover changes is a district of Chennai city.</dd>
+          <dd class="projlist"> Completed project for analysing the impact of mosquitoes an dengue fever and the pattern of spreading.</dd>
+          <dd class="projlist"> Completed reseach for various topics and provided with the articles as per demand.</dd>
+
+        <dt class="listproj">PROJECT INTERN (2021)</dt>
+          <dd class="projlist"> Worked in Madras University to make maps for Flood risk assessment using wheighted overlay analysis and multi-year land use land cover changes </dd>
+        <dt class="listproj">PROJECT INTERN (2019)</dt>
+          <dd class="projlist"> Worked in Mahatma Ghandi University to make maps for tourism and multi-year land use land cover changes </dd>
+      </dl>
+    </div>
+    <!--Description list (dl),description terms(dt) and description(dd) ends -->
+    <h2 class="contacthead">CONTACT INFORMATION</h2>
+    <!--address block used for contact details -->
+    <address class="contact">
+      <p>Mail ID : <a href="mailto:pphilip@flemingcollege.ca">priscilla</a> </p>
+      <p><a href="tel:+11111111111">PhoneNo : +1111 111 111</a> </p>
+      <p> Address: Fleming College, Frost Campus,South Lindsay,Ontario,Canada</p>
+    </address>
+    <!--address block used for contact details with a href tags -->
+
+  </body>
+
+</html>
+<!--First page of the webgpage -->
